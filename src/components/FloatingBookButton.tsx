@@ -17,7 +17,7 @@ export default function FloatingBookButton() {
   return (
     <button
       onClick={() => openBooking()}
-      className={`fixed bottom-6 left-6 z-40 bg-gradient-to-r from-forest-600 to-forest-700 text-white 
+      className={`fixed bottom-6 right-6 z-40 bg-gradient-to-r from-forest-600 to-forest-700 text-white 
                   px-6 py-3.5 rounded-full shadow-2xl shadow-forest-900/30
                   hover:from-forest-700 hover:to-forest-800 hover:shadow-3xl hover:scale-105
                   transition-all duration-500 flex items-center gap-2 font-semibold

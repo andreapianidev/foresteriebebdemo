@@ -156,7 +156,7 @@ export default function ConciergeChat() {
     <>
       {/* Chat Panel */}
       <div
-        className={`fixed bottom-24 right-6 z-50 w-[380px] max-w-[calc(100vw-3rem)] transition-all duration-500 ease-out
+        className={`fixed bottom-24 left-6 z-50 w-[380px] max-w-[calc(100vw-3rem)] transition-all duration-500 ease-out
           ${isOpen ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-4 scale-95 pointer-events-none"}`}
       >
         <div className="bg-white rounded-2xl shadow-2xl shadow-black/20 overflow-hidden flex flex-col" style={{ height: "min(560px, calc(100vh - 160px))" }}>
@@ -290,7 +290,7 @@ export default function ConciergeChat() {
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full shadow-2xl shadow-forest-900/30
+        className={`fixed bottom-6 left-6 z-50 w-14 h-14 rounded-full shadow-2xl shadow-forest-900/30
                     flex items-center justify-center transition-all duration-300 hover:scale-110
                     ${isOpen
                       ? "bg-earth-600 hover:bg-earth-700 rotate-0"
