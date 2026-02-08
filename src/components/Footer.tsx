@@ -144,7 +144,10 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} La Foresteria B&B. Tutti i diritti riservati.
           </p>
           <p className="text-xs text-forest-500">
-            Sito dimostrativo — Le immagini sono a scopo illustrativo
+            Sito web dimostrativo con concierge AI 24/24 sviluppato da Andrea Piani{" "}
+            <a href="https://www.andreapiani.com" target="_blank" rel="noopener noreferrer" className="text-forest-300 hover:text-white transition-colors underline">
+              www.andreapiani.com
+            </a>
           </p>
         </div>
       </div>
