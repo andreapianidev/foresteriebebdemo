@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BookingProvider from "@/components/BookingProvider";
 import FloatingBookButton from "@/components/FloatingBookButton";
+import ConciergeChat from "@/components/ConciergeChat";
 
 export const metadata: Metadata = {
   title: "La Foresteria B&B — Bed & Breakfast di Montagna",
@@ -24,6 +25,7 @@ export default function RootLayout({
           <main className="pt-20">{children}</main>
           <Footer />
           <FloatingBookButton />
+          <ConciergeChat />
         </BookingProvider>
       </body>
     </html>
